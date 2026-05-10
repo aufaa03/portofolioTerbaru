@@ -70,7 +70,6 @@ export const metadata: Metadata = {
   alternates: {
     canonical: SITE_META.url,
   },
-  themeColor: "#050816",
 };
 
 // ─── JSON-LD Schema ──────────────────────────────────────
