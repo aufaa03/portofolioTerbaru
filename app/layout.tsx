@@ -90,6 +90,9 @@ export const metadata: Metadata = {
   alternates: {
     canonical: SITE_META.url,
   },
+  verification: {
+    google: "YXvRZn31ES5IazViDaJgCs1TDyunwATw6umwDeyqAcE",
+  },
 };
 
 // ─── JSON-LD Schema ──────────────────────────────────────
