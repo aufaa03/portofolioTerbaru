@@ -6,7 +6,7 @@
 export type Lang = "id" | "en";
 
 export const SITE_META = {
-  url: "https://muhammadaufa.vercel.app",
+  url: "https://portofolio-aufaa-seven.vercel.app",
   author: "Muhammad Aufa Rozaky",
   email: "aufaa208@gmail.com",
   github: "https://github.com/aufaa03",
