@@ -4,6 +4,7 @@ import About from "@/components/About";
 import Experience from "@/components/Experience";
 import Skills from "@/components/Skills";
 import ToolsPlatforms from "@/components/ToolsPlatforms";
+import Achievements from "@/components/Achievements";
 import Projects from "@/components/Projects";
 import WhyMe from "@/components/WhyMe";
 import PersonalSide from "@/components/PersonalSide";
@@ -12,7 +13,7 @@ import Footer from "@/components/Footer";
 
 /**
  * Single-page portfolio — Muhammad Aufa Rozaky
- * Sections: Hero → About → Experience → Skills → ToolsPlatforms → Projects → WhyMe → PersonalSide → Contact → Footer
+ * Sections: Hero → About → Experience → Skills → ToolsPlatforms → Achievements → Projects → WhyMe → PersonalSide → Contact → Footer
  */
 export default function Home() {
   return (
@@ -23,6 +24,7 @@ export default function Home() {
       <Experience />
       <Skills />
       <ToolsPlatforms />
+      <Achievements />
       <Projects />
       <WhyMe />
       <PersonalSide />

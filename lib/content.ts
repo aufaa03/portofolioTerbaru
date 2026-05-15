@@ -24,6 +24,7 @@ export const NAV_ITEMS = [
     labelEn: "Experience",
   },
   { key: "skills", href: "#skills", labelId: "Keahlian", labelEn: "Skills" },
+  { key: "achievements", href: "#achievements", labelId: "Prestasi", labelEn: "Achievements" },
   { key: "projects", href: "#projects", labelId: "Proyek", labelEn: "Projects" },
   { key: "contact", href: "#contact", labelId: "Kontak", labelEn: "Contact" },
 ];
@@ -35,8 +36,8 @@ export const HERO_CONTENT = {
   },
   headline: "Muhammad Aufa Rozaky",
   subheadline: {
-    id: "Fresh Graduate RPL • Web Development • Digital Administration",
-    en: "RPL Fresh Graduate • Web Development • Digital Administration",
+    id: "Fresh Graduate RPL/PPLG • Web Development • Digital Workflow",
+    en: "RPL/PPLG Fresh Graduate • Web Development • Digital Workflow",
   },
   description: {
     id: "Fresh graduate RPL/PPLG dengan pengalaman kerja remote, pengembangan website modern, dan pengolahan data administratif ber-volume tinggi.",
@@ -353,6 +354,51 @@ export const PERSONAL_CONTENT = {
     { src: "/images/fotorandom.jpg", alt: "Petualangan" },
   ],
 };
+
+export const ACHIEVEMENTS = [
+  {
+    id: "best-graduate",
+    icon: "Trophy",
+    badge: { id: "Prestasi Akademik", en: "Academic Achievement" },
+    badgeColor: "amber",
+    title: {
+      id: "Lulusan Terbaik #2 PPLG",
+      en: "2nd Best Graduate PPLG",
+    },
+    description: {
+      id: "Meraih penghargaan sebagai lulusan terbaik ke-2 Program Keahlian Pengembangan Perangkat Lunak dan Gim (PPLG) di SMK PGRI 2 Taman tahun 2026.",
+      en: "Awarded as the 2nd best graduate in the Software and Game Development (PPLG) program at SMK PGRI 2 Taman in 2026.",
+    },
+  },
+  {
+    id: "lks-web-dev",
+    icon: "Code2",
+    badge: { id: "Kompetisi", en: "Competition" },
+    badgeColor: "blue",
+    title: {
+      id: "Top 5 LKS Web Development",
+      en: "Top 5 LKS Web Development",
+    },
+    description: {
+      id: "Berpartisipasi dalam kompetisi Web Development tingkat kabupaten dan meraih posisi Top 5.",
+      en: "Participated in a district-level Web Development competition and achieved Top 5 ranking.",
+    },
+  },
+  {
+    id: "community-leadership",
+    icon: "Users",
+    badge: { id: "Kepemimpinan", en: "Leadership" },
+    badgeColor: "purple",
+    title: {
+      id: "Ketua Komunitas Coding",
+      en: "Head of Coding Community",
+    },
+    description: {
+      id: "Memimpin komunitas coding sekolah dan membantu meningkatkan minat teknologi di lingkungan pelajar.",
+      en: "Led the school coding community and helped foster interest in technology among students.",
+    },
+  },
+];
 
 export const CONTACT_CONTENT = {
   title: { id: "Mari Bangun Sesuatu yang Hebat", en: "Let's Build Something Great" },

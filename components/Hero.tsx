@@ -3,7 +3,7 @@
 import Image from "next/image";
 import { useLang } from "@/lib/lang-context";
 import { HERO_CONTENT, SITE_META } from "@/lib/content";
-import { ArrowRight, Mail, Sparkles, MapPin } from "lucide-react";
+import { ArrowRight, Mail, Sparkles, MapPin, Trophy } from "lucide-react";
 
 export default function Hero() {
   const { t } = useLang();
@@ -93,9 +93,23 @@ export default function Hero() {
             </div>
 
             {/* Trust text */}
-            <div className="flex items-center gap-2 text-xs text-white/30">
-              <Sparkles size={11} className="text-blue-400" />
-              <span>{t(HERO_CONTENT.trustText)}</span>
+            <div className="space-y-2">
+              <div className="flex items-center gap-2 text-xs text-white/30">
+                <Sparkles size={11} className="text-blue-400" />
+                <span>{t(HERO_CONTENT.trustText)}</span>
+              </div>
+
+              {/* Credibility indicators */}
+              <div className="flex flex-wrap items-center gap-x-2 gap-y-1">
+                <Trophy size={11} className="text-amber-400/60 flex-shrink-0" />
+                <span className="text-[11px] text-white/28 tracking-wide">
+                  Top 5 LKS Web Development
+                </span>
+                <span className="text-white/15 select-none">•</span>
+                <span className="text-[11px] text-white/28 tracking-wide">
+                  Lulusan Terbaik #2 PPLG 2026
+                </span>
+              </div>
             </div>
           </div>
 
